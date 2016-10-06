@@ -324,6 +324,7 @@ CanvasState.prototype.draw = function()
   {
     console.log("clearing");
     polygon.length = 0;
+		inPolygon = false;
     allPolygons.length = 0;
     this.points.length = 0;
     this.valid = false;
