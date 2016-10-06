@@ -1,0 +1,64 @@
+.showInstructions {
+	background-color:rgba(0, 0, 0, 0.5);
+	text-align:center;
+	color: white;
+	font-family: sans-serif;
+	display: inline-block;
+	padding: 5px 37.5px;
+	border-radius: 0 0 8px 8px;
+	cursor: pointer;
+  position: relative;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+a:hover { 
+	text-decoration: none;
+	color: #FFFFFF
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	border-bottom: #000000 1px dashed;
+}
+#instructions{
+	display: none;
+	list-style-type: none;
+	font-family: sans-serif;
+	margin: 0;
+  position: relative;
+	font-family: 'Raleway', sans-serif;
+}
+button {
+  background-color: #102624;
+	hover: 
+	width: 100px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  position: relative;
+	font-family: 'Raleway', sans-serif;
+}
+button:hover {
+	background:#6F7C7B;
+}
+body {
+  background-color: cadetblue;
+}
+canvas {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  right: 0;
+}
