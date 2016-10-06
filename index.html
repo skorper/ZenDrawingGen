@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Zen Drawing</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+</head>
+
+<body onLoad='init()'>
+<canvas id="canvas"></canvas>
+<div id = "buttons">
+  <button id = "gen" onclick="populate()">Generate</button> 
+  <button onclick="clearPolygons()">Clear</button> 
+  <!--button onclick="samplePoints()">Example</button--> 
+</div>
+<div id = "instructions">
+  <ul>
+    <li> Double click to start a new polygon.</li>
+    <li> Single click to continue the polygon.</li>
+    <li> Click a point to select (it will appear red), drag.</li>
+    <li> Points can be snapped, check for intersection (bolded point).</li>
+		<li> Press esc while mid-polygon to destroy.</li>
+		<li> Press esc while a point is selected to delete that polygon. </li>
+    <li> Click "Generate" to toggle the designs. You can continue to create<br>
+			polygons while the designs are being generated, but this may<br>
+			affect performance.</li>
+		<li><a href="#">Example usage</a></li>
+  </ul>
+</div>
+<div class="showInstructions">Instructions</div>
+</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+  </body>
+</html>
