@@ -1,7 +1,7 @@
 # Zen-Drawing-Generator
 Generate zen drawings, also known as triangle/square illusions. 
 
-For example, I made this in about 10 seconds:
+For example:
 
 <img src="example.png" width="400">
 
